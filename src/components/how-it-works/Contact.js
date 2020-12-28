@@ -49,7 +49,7 @@ function Contact(props) {
     e.preventDefault();
     setLoading(true);
     axios
-    .post(`https://api.99coupons.ml/send-vpn/mail/`, {
+    .post(`https://api.99coupons.ml/send-vpn-mail/`, {
       firstName,
       lastName,
       email,
